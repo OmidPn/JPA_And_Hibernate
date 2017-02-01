@@ -1,0 +1,368 @@
+19:44:25,487 DEBUG SQL:92 - insert into Guide (name, salary, staff_id) values (?, ?, ?)
+19:44:25,536 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Ian Lamb]
+19:44:25,539 TRACE BasicBinder:65 - binding parameter [2] as [INTEGER] - [2000]
+19:44:25,539 TRACE BasicBinder:65 - binding parameter [3] as [VARCHAR] - [200ww0IM10901]
+19:44:25,550 DEBUG SQL:92 - insert into Student (enrollment_id, guide_id, name) values (?, ?, ?)
+19:44:25,552 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [2014AL50456]
+19:44:25,554 TRACE BasicBinder:65 - binding parameter [2] as [BIGINT] - [6]
+19:44:25,554 TRACE BasicBinder:65 - binding parameter [3] as [VARCHAR] - [Amy Gill]
+19:49:46,598 DEBUG SQL:92 - select student0_.st_id as st_id1_3_0_, student0_.enrollment_id as enrollme2_3_0_, student0_.guide_id as guide_id4_3_0_, student0_.name as name3_3_0_, guide1_.id as id1_0_1_, guide1_.name as name2_0_1_, guide1_.salary as salary3_0_1_, guide1_.staff_id as staff_id4_0_1_ from Student student0_ left outer join Guide guide1_ on student0_.guide_id=guide1_.id where student0_.st_id=?
+19:49:46,626 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [4]
+19:49:46,675 DEBUG SQL:92 - delete from Student where st_id=?
+19:49:46,676 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [4]
+19:49:46,697 DEBUG SQL:92 - delete from Guide where id=?
+19:49:46,698 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [3]
+19:50:27,300 DEBUG SQL:92 - select student0_.st_id as st_id1_3_0_, student0_.enrollment_id as enrollme2_3_0_, student0_.guide_id as guide_id4_3_0_, student0_.name as name3_3_0_, guide1_.id as id1_0_1_, guide1_.name as name2_0_1_, guide1_.salary as salary3_0_1_, guide1_.staff_id as staff_id4_0_1_ from Student student0_ left outer join Guide guide1_ on student0_.guide_id=guide1_.id where student0_.st_id=?
+19:50:27,327 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [5]
+19:50:27,378 DEBUG SQL:92 - delete from Student where st_id=?
+19:50:27,379 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [5]
+19:50:27,409 DEBUG SQL:92 - delete from Guide where id=?
+19:50:27,409 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [4]
+19:50:59,723 DEBUG SQL:92 - select student0_.st_id as st_id1_3_0_, student0_.enrollment_id as enrollme2_3_0_, student0_.guide_id as guide_id4_3_0_, student0_.name as name3_3_0_, guide1_.id as id1_0_1_, guide1_.name as name2_0_1_, guide1_.salary as salary3_0_1_, guide1_.staff_id as staff_id4_0_1_ from Student student0_ left outer join Guide guide1_ on student0_.guide_id=guide1_.id where student0_.st_id=?
+19:50:59,746 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [6]
+19:50:59,793 DEBUG SQL:92 - delete from Student where st_id=?
+19:50:59,794 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [6]
+19:50:59,816 DEBUG SQL:92 - delete from Guide where id=?
+19:50:59,817 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [5]
+20:10:36,494 DEBUG SQL:92 - select student0_.st_id as st_id1_3_0_, student0_.enrollment_id as enrollme2_3_0_, student0_.guide_id as guide_id4_3_0_, student0_.name as name3_3_0_, guide1_.id as id1_0_1_, guide1_.name as name2_0_1_, guide1_.salary as salary3_0_1_, guide1_.staff_id as staff_id4_0_1_ from Student student0_ left outer join Guide guide1_ on student0_.guide_id=guide1_.id where student0_.st_id=?
+20:10:36,517 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [7]
+20:10:36,560 DEBUG SQL:92 - delete from Student where st_id=?
+20:10:36,561 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [7]
+20:10:36,625 DEBUG SQL:92 - delete from Guide where id=?
+20:10:36,625 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [6]
+20:10:59,724 DEBUG SQL:92 - select student0_.st_id as st_id1_3_0_, student0_.enrollment_id as enrollme2_3_0_, student0_.guide_id as guide_id4_3_0_, student0_.name as name3_3_0_, guide1_.id as id1_0_1_, guide1_.name as name2_0_1_, guide1_.salary as salary3_0_1_, guide1_.staff_id as staff_id4_0_1_ from Student student0_ left outer join Guide guide1_ on student0_.guide_id=guide1_.id where student0_.st_id=?
+20:10:59,750 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [7]
+20:15:11,692 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Ian Lamb]
+20:15:11,698 TRACE BasicBinder:65 - binding parameter [2] as [INTEGER] - [2000]
+20:15:11,699 TRACE BasicBinder:65 - binding parameter [3] as [VARCHAR] - [200ww0IM10901]
+20:15:11,733 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [2014AL50456]
+20:15:11,734 TRACE BasicBinder:65 - binding parameter [2] as [BIGINT] - [7]
+20:15:11,735 TRACE BasicBinder:65 - binding parameter [3] as [VARCHAR] - [Amy Gill]
+21:33:41,261 DEBUG SQL:92 - insert into Passport (passport_number) values (?)
+21:33:41,289 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [925076473]
+21:33:41,298 DEBUG SQL:92 - insert into Customer (Costumenr_name, passport_id) values (?, ?)
+21:33:41,299 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Nicole Scott]
+21:33:41,300 TRACE BasicBinder:65 - binding parameter [2] as [BIGINT] - [8]
+21:46:34,748 DEBUG SQL:92 - insert into Passport (passport_number) values (?)
+21:46:34,766 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [925076473]
+21:46:34,772 DEBUG SQL:92 - insert into Customer (Costumenr_name, passport_id) values (?, ?)
+21:46:34,773 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Nicole Scott]
+21:46:34,773 TRACE BasicBinder:65 - binding parameter [2] as [BIGINT] - [9]
+21:47:59,187 DEBUG SQL:92 - insert into Guide (name, salary, staff_id) values (?, ?, ?)
+21:47:59,206 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Idfdb]
+21:47:59,207 TRACE BasicBinder:65 - binding parameter [2] as [INTEGER] - [20200]
+21:47:59,208 TRACE BasicBinder:65 - binding parameter [3] as [VARCHAR] - [dfdfdfd]
+21:47:59,214 DEBUG SQL:92 - insert into Student (enrollment_id, guide_id, name) values (?, ?, ?)
+21:47:59,215 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [2014AL50456]
+21:47:59,216 TRACE BasicBinder:65 - binding parameter [2] as [BIGINT] - [2]
+21:47:59,216 TRACE BasicBinder:65 - binding parameter [3] as [VARCHAR] - [rtrtr Gill]
+21:47:59,306 DEBUG SQL:92 - insert into Passport (passport_number) values (?)
+21:47:59,307 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [925076473]
+21:47:59,329 DEBUG SQL:92 - insert into Customer (Costumenr_name, passport_id) values (?, ?)
+21:47:59,329 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Nicole Scott]
+21:47:59,330 TRACE BasicBinder:65 - binding parameter [2] as [BIGINT] - [10]
+22:06:01,122 DEBUG SQL:92 - insert into Passport (passport_number) values (?)
+22:06:01,145 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [925076473]
+22:06:01,152 DEBUG SQL:92 - insert into Customer (Costumenr_name, passport_id) values (?, ?)
+22:06:01,154 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Nicole Scott]
+22:06:01,155 TRACE BasicBinder:65 - binding parameter [2] as [BIGINT] - [11]
+22:12:09,310 DEBUG SQL:92 - insert into Passport (passport_number) values (?)
+22:12:09,333 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [925076473]
+22:12:09,339 DEBUG SQL:92 - insert into Customer (Costumenr_name, passport_id) values (?, ?)
+22:12:09,340 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Nicole Scott]
+22:12:09,341 TRACE BasicBinder:65 - binding parameter [2] as [BIGINT] - [12]
+22:42:45,229 DEBUG SQL:92 - insert into Passport (passport_number) values (?)
+22:42:45,252 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [925076473]
+22:42:45,260 DEBUG SQL:92 - insert into Customer (Costumenr_name, passport_id) values (?, ?)
+22:42:45,260 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Nicole Scott]
+22:42:45,261 TRACE BasicBinder:65 - binding parameter [2] as [BIGINT] - [13]
+00:20:24,711 DEBUG SQL:92 - create table Actor (id bigint not null auto_increment, Actor_name varchar(255), primary key (id))
+00:20:25,143 DEBUG SQL:92 - create table Movie (id bigint not null auto_increment, name varchar(255), primary key (id))
+00:20:25,501 DEBUG SQL:92 - create table movie_actor (movie_id bigint not null, actor_id bigint not null, primary key (movie_id, actor_id))
+00:20:26,032 DEBUG SQL:92 - alter table movie_actor add constraint FK2anlx6ycvy2nlm1o0ga9glpmu foreign key (actor_id) references Actor (id)
+00:20:27,556 DEBUG SQL:92 - alter table movie_actor add constraint FKi17y5929b8lhmtay3g1wo76e2 foreign key (movie_id) references Movie (id)
+00:20:28,619 DEBUG SQL:92 - insert into Movie (name) values (?)
+00:20:28,655 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Inception]
+00:20:28,694 DEBUG SQL:92 - insert into Actor (Actor_name) values (?)
+00:20:28,705 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Leonardo Decaprio]
+00:20:28,736 DEBUG SQL:92 - insert into Movie (name) values (?)
+00:20:28,737 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Catch Me If You Can]
+00:20:28,738 DEBUG SQL:92 - insert into Actor (Actor_name) values (?)
+00:20:28,739 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Cristrian Bale]
+00:20:28,767 DEBUG SQL:92 - insert into movie_actor (movie_id, actor_id) values (?, ?)
+00:20:28,769 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [1]
+00:20:28,769 TRACE BasicBinder:65 - binding parameter [2] as [BIGINT] - [1]
+00:20:28,868 DEBUG SQL:92 - insert into movie_actor (movie_id, actor_id) values (?, ?)
+00:20:28,869 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [2]
+00:20:28,869 TRACE BasicBinder:65 - binding parameter [2] as [BIGINT] - [1]
+00:20:28,871 DEBUG SQL:92 - insert into movie_actor (movie_id, actor_id) values (?, ?)
+00:20:28,872 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [2]
+00:20:28,873 TRACE BasicBinder:65 - binding parameter [2] as [BIGINT] - [2]
+00:29:37,832 DEBUG SQL:92 - select movie0_.id as id1_4_0_, movie0_.name as name2_4_0_ from Movie movie0_ where movie0_.id=?
+00:29:37,863 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [1]
+00:29:37,897 DEBUG SQL:92 - select actor0_.id as id1_0_0_, actor0_.Actor_name as Actor_na2_0_0_ from Actor actor0_ where actor0_.id=?
+00:29:37,898 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [2]
+00:29:37,902 DEBUG SQL:92 - select movieset0_.actor_id as actor_id2_5_0_, movieset0_.movie_id as movie_id1_5_0_, movie1_.id as id1_4_1_, movie1_.name as name2_4_1_ from movie_actor movieset0_ inner join Movie movie1_ on movieset0_.movie_id=movie1_.id where movieset0_.actor_id=?
+00:29:37,903 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [2]
+00:30:46,781 DEBUG SQL:92 - select movie0_.id as id1_4_0_, movie0_.name as name2_4_0_ from Movie movie0_ where movie0_.id=?
+00:30:46,814 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [1]
+00:30:46,847 DEBUG SQL:92 - select actor0_.id as id1_0_0_, actor0_.Actor_name as Actor_na2_0_0_ from Actor actor0_ where actor0_.id=?
+00:30:46,848 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [2]
+00:30:46,852 DEBUG SQL:92 - select actorset0_.movie_id as movie_id1_5_0_, actorset0_.actor_id as actor_id2_5_0_, actor1_.id as id1_0_1_, actor1_.Actor_name as Actor_na2_0_1_ from movie_actor actorset0_ inner join Actor actor1_ on actorset0_.actor_id=actor1_.id where actorset0_.movie_id=?
+00:30:46,853 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [1]
+00:30:46,886 DEBUG SQL:92 - insert into movie_actor (movie_id, actor_id) values (?, ?)
+00:30:46,887 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [1]
+00:30:46,889 TRACE BasicBinder:65 - binding parameter [2] as [BIGINT] - [2]
+00:34:53,288 DEBUG SQL:92 - insert into Movie (name) values (?)
+00:34:53,318 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Inception]
+00:34:53,366 DEBUG SQL:92 - insert into Actor (Actor_name) values (?)
+00:34:53,367 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Leonardo Decaprio]
+00:34:53,371 DEBUG SQL:92 - insert into Movie (name) values (?)
+00:34:53,372 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Catch Me If You Can]
+00:34:53,373 DEBUG SQL:92 - insert into Actor (Actor_name) values (?)
+00:34:53,374 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Cristrian Bale]
+00:34:53,395 DEBUG SQL:92 - insert into movie_actor (movie_id, actor_id) values (?, ?)
+00:34:53,397 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [3]
+00:34:53,397 TRACE BasicBinder:65 - binding parameter [2] as [BIGINT] - [3]
+00:34:53,452 DEBUG SQL:92 - insert into movie_actor (movie_id, actor_id) values (?, ?)
+00:34:53,453 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [4]
+00:34:53,453 TRACE BasicBinder:65 - binding parameter [2] as [BIGINT] - [3]
+00:34:53,558 DEBUG SQL:92 - insert into movie_actor (movie_id, actor_id) values (?, ?)
+00:34:53,559 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [4]
+00:34:53,562 TRACE BasicBinder:65 - binding parameter [2] as [BIGINT] - [4]
+00:50:04,141 DEBUG SQL:92 - insert into Movie (name) values (?)
+00:50:04,175 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Inception]
+00:50:04,187 DEBUG SQL:92 - insert into Actor (Actor_name) values (?)
+00:50:04,189 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Leonardo Decaprio]
+00:50:04,193 DEBUG SQL:92 - insert into Movie (name) values (?)
+00:50:04,194 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Catch Me If You Can]
+00:50:04,196 DEBUG SQL:92 - insert into Actor (Actor_name) values (?)
+00:50:04,197 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Cristrian Bale]
+00:50:04,225 DEBUG SQL:92 - insert into movie_actor (movie_id, actor_id) values (?, ?)
+00:50:04,228 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [9]
+00:50:04,228 TRACE BasicBinder:65 - binding parameter [2] as [BIGINT] - [9]
+00:50:04,316 DEBUG SQL:92 - insert into movie_actor (movie_id, actor_id) values (?, ?)
+00:50:04,317 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [10]
+00:50:04,317 TRACE BasicBinder:65 - binding parameter [2] as [BIGINT] - [9]
+00:50:04,319 DEBUG SQL:92 - insert into movie_actor (movie_id, actor_id) values (?, ?)
+00:50:04,320 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [10]
+00:50:04,323 TRACE BasicBinder:65 - binding parameter [2] as [BIGINT] - [10]
+00:57:03,562 DEBUG SQL:92 - alter table movie_actor add constraint FK2anlx6ycvy2nlm1o0ga9glpmu foreign key (actor_id) references Actor (id)
+00:57:05,055 DEBUG SQL:92 - alter table movie_actor add constraint FKi17y5929b8lhmtay3g1wo76e2 foreign key (movie_id) references Movie (id)
+00:57:06,109 DEBUG SQL:92 - insert into Movie (Movie_name) values (?)
+00:57:06,143 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Inception]
+00:57:06,156 DEBUG SQL:92 - insert into Actor (Actor_name) values (?)
+00:57:06,158 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Leonardo Decaprio]
+00:57:06,161 DEBUG SQL:92 - insert into Movie (Movie_name) values (?)
+00:57:06,162 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Catch Me If You Can]
+00:57:06,170 DEBUG SQL:92 - insert into Actor (Actor_name) values (?)
+00:57:06,172 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Cristrian Bale]
+00:57:06,203 DEBUG SQL:92 - insert into movie_actor (movie_id, actor_id) values (?, ?)
+00:57:06,205 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [3]
+00:57:06,205 TRACE BasicBinder:65 - binding parameter [2] as [BIGINT] - [3]
+00:57:06,380 DEBUG SQL:92 - insert into movie_actor (movie_id, actor_id) values (?, ?)
+00:57:06,381 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [4]
+00:57:06,381 TRACE BasicBinder:65 - binding parameter [2] as [BIGINT] - [4]
+00:57:06,384 DEBUG SQL:92 - insert into movie_actor (movie_id, actor_id) values (?, ?)
+00:57:06,385 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [4]
+00:57:06,386 TRACE BasicBinder:65 - binding parameter [2] as [BIGINT] - [3]
+00:58:40,757 DEBUG SQL:92 - insert into Movie (Movie_name) values (?)
+00:58:40,786 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Inception]
+00:58:40,822 DEBUG SQL:92 - insert into Actor (Actor_name) values (?)
+00:58:40,823 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Leonardo Decaprio]
+00:58:40,826 DEBUG SQL:92 - insert into Movie (Movie_name) values (?)
+00:58:40,827 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Catch Me If You Can]
+00:58:40,828 DEBUG SQL:92 - insert into Actor (Actor_name) values (?)
+00:58:40,829 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Cristrian Bale]
+00:58:40,839 DEBUG SQL:92 - select movie0_.id as id1_4_0_, movie0_.Movie_name as Movie_na2_4_0_ from Movie movie0_ where movie0_.id=?
+00:58:40,841 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [1]
+00:58:40,855 DEBUG SQL:92 - select actor0_.id as id1_0_0_, actor0_.Actor_name as Actor_na2_0_0_ from Actor actor0_ where actor0_.id=?
+00:58:40,856 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [2]
+00:58:40,861 DEBUG SQL:92 - select actorset0_.movie_id as movie_id1_5_0_, actorset0_.actor_id as actor_id2_5_0_, actor1_.id as id1_0_1_, actor1_.Actor_name as Actor_na2_0_1_ from movie_actor actorset0_ inner join Actor actor1_ on actorset0_.actor_id=actor1_.id where actorset0_.movie_id=?
+00:58:40,862 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [1]
+00:58:40,888 DEBUG SQL:92 - insert into movie_actor (movie_id, actor_id) values (?, ?)
+00:58:40,889 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [5]
+00:58:40,894 TRACE BasicBinder:65 - binding parameter [2] as [BIGINT] - [5]
+00:58:41,084 DEBUG SQL:92 - insert into movie_actor (movie_id, actor_id) values (?, ?)
+00:58:41,085 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [6]
+00:58:41,086 TRACE BasicBinder:65 - binding parameter [2] as [BIGINT] - [6]
+00:58:41,087 DEBUG SQL:92 - insert into movie_actor (movie_id, actor_id) values (?, ?)
+00:58:41,088 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [6]
+00:58:41,089 TRACE BasicBinder:65 - binding parameter [2] as [BIGINT] - [5]
+01:00:55,845 DEBUG SQL:92 - create table Actor (id bigint not null auto_increment, Actor_name varchar(255), primary key (id))
+01:00:56,291 DEBUG SQL:92 - create table Movie (id bigint not null auto_increment, Movie_name varchar(255), primary key (id))
+01:00:56,756 DEBUG SQL:92 - create table movie_actor (movie_id bigint not null, actor_id bigint not null, primary key (movie_id, actor_id))
+01:00:57,140 DEBUG SQL:92 - alter table movie_actor add constraint FK2anlx6ycvy2nlm1o0ga9glpmu foreign key (actor_id) references Actor (id)
+01:00:58,423 DEBUG SQL:92 - alter table movie_actor add constraint FKi17y5929b8lhmtay3g1wo76e2 foreign key (movie_id) references Movie (id)
+01:00:59,818 DEBUG SQL:92 - insert into Movie (Movie_name) values (?)
+01:00:59,837 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Inception]
+01:00:59,848 DEBUG SQL:92 - insert into Actor (Actor_name) values (?)
+01:00:59,849 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Leonardo Decaprio]
+01:00:59,853 DEBUG SQL:92 - insert into Movie (Movie_name) values (?)
+01:00:59,854 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Catch Me If You Can]
+01:00:59,856 DEBUG SQL:92 - insert into Actor (Actor_name) values (?)
+01:00:59,857 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Cristrian Bale]
+01:00:59,880 DEBUG SQL:92 - insert into movie_actor (movie_id, actor_id) values (?, ?)
+01:00:59,882 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [1]
+01:00:59,882 TRACE BasicBinder:65 - binding parameter [2] as [BIGINT] - [1]
+01:01:00,002 DEBUG SQL:92 - insert into movie_actor (movie_id, actor_id) values (?, ?)
+01:01:00,002 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [2]
+01:01:00,003 TRACE BasicBinder:65 - binding parameter [2] as [BIGINT] - [1]
+01:01:00,004 DEBUG SQL:92 - insert into movie_actor (movie_id, actor_id) values (?, ?)
+01:01:00,004 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [2]
+01:01:00,005 TRACE BasicBinder:65 - binding parameter [2] as [BIGINT] - [2]
+01:02:12,164 DEBUG SQL:92 - select movie0_.id as id1_4_0_, movie0_.Movie_name as Movie_na2_4_0_ from Movie movie0_ where movie0_.id=?
+01:02:12,190 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [2]
+01:02:12,222 DEBUG SQL:92 - select actor0_.id as id1_0_0_, actor0_.Actor_name as Actor_na2_0_0_ from Actor actor0_ where actor0_.id=?
+01:02:12,223 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [2]
+01:02:12,228 DEBUG SQL:92 - select actorset0_.movie_id as movie_id1_5_0_, actorset0_.actor_id as actor_id2_5_0_, actor1_.id as id1_0_1_, actor1_.Actor_name as Actor_na2_0_1_ from movie_actor actorset0_ inner join Actor actor1_ on actorset0_.actor_id=actor1_.id where actorset0_.movie_id=?
+01:02:12,229 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [2]
+01:02:12,321 DEBUG SQL:92 - delete from movie_actor where movie_id=? and actor_id=?
+01:02:12,322 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [2]
+01:02:12,324 TRACE BasicBinder:65 - binding parameter [2] as [BIGINT] - [2]
+19:37:17,962 DEBUG SQL:92 - 
+    insert 
+    into
+        MESSAGE
+        (TEXT) 
+    values
+        (?)
+19:37:18,013 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Hello World with Hibernate as JPA Provider]
+19:38:01,041 DEBUG SQL:92 - 
+    insert 
+    into
+        MESSAGE
+        (TEXT) 
+    values
+        (?)
+19:38:01,071 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Hello World with Hibernate as JPA Provider again]
+20:06:53,349 DEBUG SQL:92 - 
+    insert 
+    into
+        MESSAGE
+        (TEXT) 
+    values
+        (?)
+20:06:53,393 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Hello ]
+20:06:53,608 DEBUG SQL:92 - 
+    select
+        message0_.ID as ID1_3_0_,
+        message0_.TEXT as TEXT2_3_0_ 
+    from
+        MESSAGE message0_ 
+    where
+        message0_.ID=?
+20:06:53,611 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [16]
+20:06:53,753 DEBUG SQL:92 - 
+    update
+        MESSAGE 
+    set
+        TEXT=? 
+    where
+        ID=?
+20:06:53,754 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Modify the detached message]
+20:06:53,754 TRACE BasicBinder:65 - binding parameter [2] as [BIGINT] - [16]
+20:08:38,328 DEBUG SQL:92 - 
+    insert 
+    into
+        MESSAGE
+        (TEXT) 
+    values
+        (?)
+20:08:38,353 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Hello ]
+20:08:38,555 DEBUG SQL:92 - 
+    select
+        message0_.ID as ID1_3_0_,
+        message0_.TEXT as TEXT2_3_0_ 
+    from
+        MESSAGE message0_ 
+    where
+        message0_.ID=?
+20:08:38,557 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [17]
+20:08:38,606 DEBUG SQL:92 - 
+    update
+        MESSAGE 
+    set
+        TEXT=? 
+    where
+        ID=?
+20:08:38,606 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Modify the detached message]
+20:08:38,607 TRACE BasicBinder:65 - binding parameter [2] as [BIGINT] - [17]
+20:09:26,503 DEBUG SQL:92 - 
+    insert 
+    into
+        MESSAGE
+        (TEXT) 
+    values
+        (?)
+20:09:26,531 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Hello ]
+20:09:26,666 DEBUG SQL:92 - 
+    select
+        message0_.ID as ID1_3_0_,
+        message0_.TEXT as TEXT2_3_0_ 
+    from
+        MESSAGE message0_ 
+    where
+        message0_.ID=?
+20:09:26,668 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [18]
+20:09:26,708 DEBUG SQL:92 - 
+    update
+        MESSAGE 
+    set
+        TEXT=? 
+    where
+        ID=?
+20:09:26,709 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Modify the detached message]
+20:09:26,709 TRACE BasicBinder:65 - binding parameter [2] as [BIGINT] - [18]
+20:11:12,920 DEBUG SQL:92 - 
+    insert 
+    into
+        MESSAGE
+        (TEXT) 
+    values
+        (?)
+20:11:12,940 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Hello ]
+20:11:13,152 DEBUG SQL:92 - 
+    select
+        message0_.ID as ID1_3_0_,
+        message0_.TEXT as TEXT2_3_0_ 
+    from
+        MESSAGE message0_ 
+    where
+        message0_.ID=?
+20:11:13,154 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [19]
+20:11:13,186 DEBUG SQL:92 - 
+    update
+        MESSAGE 
+    set
+        TEXT=? 
+    where
+        ID=?
+20:11:13,187 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Modify the detached message]
+20:11:13,187 TRACE BasicBinder:65 - binding parameter [2] as [BIGINT] - [19]
+20:11:30,928 DEBUG SQL:92 - 
+    insert 
+    into
+        MESSAGE
+        (TEXT) 
+    values
+        (?)
+20:11:30,956 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Hello ]
+20:11:31,042 DEBUG SQL:92 - 
+    select
+        message0_.ID as ID1_3_0_,
+        message0_.TEXT as TEXT2_3_0_ 
+    from
+        MESSAGE message0_ 
+    where
+        message0_.ID=?
+20:11:31,045 TRACE BasicBinder:65 - binding parameter [1] as [BIGINT] - [20]
+20:11:31,293 DEBUG SQL:92 - 
+    update
+        MESSAGE 
+    set
+        TEXT=? 
+    where
+        ID=?
+20:11:31,294 TRACE BasicBinder:65 - binding parameter [1] as [VARCHAR] - [Modify the detached message]
+20:11:31,294 TRACE BasicBinder:65 - binding parameter [2] as [BIGINT] - [20]
