@@ -19,6 +19,7 @@
       <root url="jar://$PROJECT_DIR$/lib/javax.inject-1.jar!/" />
       <root url="jar://$PROJECT_DIR$/lib/hibernate-commons-annotations-5.0.1.Final.jar!/" />
       <root url="jar://$USER_HOME$/Downloads/hibernate-entitymanager-4.3.5.Final.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Compressed/commons-lang3-3.5-bin/commons-lang3-3.5/commons-lang3-3.5.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />
